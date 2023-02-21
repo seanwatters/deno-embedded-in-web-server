@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "v8": "cargo run --bin v8",
+    "js_runtime": "cargo run --bin js_runtime",
+    "js_runtime_shared": "cargo run --bin js_runtime_shared",
+    "main_worker": "cargo run --bin main_worker",
+    "main_worker_shared": "cargo run --bin main_worker_shared",
+
+    "autocannon": "autocannon http://localhost:8080/js"
+  },
+  "devDependencies": {
+    "autocannon": "^7.10.0"
+  }
+}

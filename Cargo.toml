@@ -1,0 +1,10 @@
+[package]
+name = "fresh_http_server"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+actix-web = "4"
+deno_core = "0.171.0"
+deno_runtime = "0.97.0"
